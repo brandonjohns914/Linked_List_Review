@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		4176A1FD28A5BB91001CA04A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4176A1FC28A5BB91001CA04A /* main.cpp */; };
+		4176A20528A5BC35001CA04A /* Linked_List_Iterator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4176A20328A5BC35001CA04A /* Linked_List_Iterator.cpp */; };
+		4176A20828A5BE1B001CA04A /* Linked_List_Type.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4176A20628A5BE1B001CA04A /* Linked_List_Type.cpp */; };
+		4176A20B28A5CB5D001CA04A /* Unordered_Linked_List.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4176A20928A5CB5D001CA04A /* Unordered_Linked_List.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		4176A1F928A5BB91001CA04A /* Linked_List_Review */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Linked_List_Review; sourceTree = BUILT_PRODUCTS_DIR; };
 		4176A1FC28A5BB91001CA04A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4176A20328A5BC35001CA04A /* Linked_List_Iterator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Linked_List_Iterator.cpp; sourceTree = "<group>"; };
+		4176A20428A5BC35001CA04A /* Linked_List_Iterator.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Linked_List_Iterator.hpp; sourceTree = "<group>"; };
+		4176A20628A5BE1B001CA04A /* Linked_List_Type.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Linked_List_Type.cpp; sourceTree = "<group>"; };
+		4176A20728A5BE1B001CA04A /* Linked_List_Type.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Linked_List_Type.hpp; sourceTree = "<group>"; };
+		4176A20928A5CB5D001CA04A /* Unordered_Linked_List.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Unordered_Linked_List.cpp; sourceTree = "<group>"; };
+		4176A20A28A5CB5D001CA04A /* Unordered_Linked_List.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Unordered_Linked_List.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				4176A1FC28A5BB91001CA04A /* main.cpp */,
+				4176A20428A5BC35001CA04A /* Linked_List_Iterator.hpp */,
+				4176A20328A5BC35001CA04A /* Linked_List_Iterator.cpp */,
+				4176A20728A5BE1B001CA04A /* Linked_List_Type.hpp */,
+				4176A20628A5BE1B001CA04A /* Linked_List_Type.cpp */,
+				4176A20A28A5CB5D001CA04A /* Unordered_Linked_List.hpp */,
+				4176A20928A5CB5D001CA04A /* Unordered_Linked_List.cpp */,
 			);
 			path = Linked_List_Review;
 			sourceTree = "<group>";
@@ -119,7 +134,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4176A20528A5BC35001CA04A /* Linked_List_Iterator.cpp in Sources */,
+				4176A20828A5BE1B001CA04A /* Linked_List_Type.cpp in Sources */,
 				4176A1FD28A5BB91001CA04A /* main.cpp in Sources */,
+				4176A20B28A5CB5D001CA04A /* Unordered_Linked_List.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
