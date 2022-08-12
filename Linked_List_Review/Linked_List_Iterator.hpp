@@ -16,7 +16,7 @@ struct node_Type
 {
 Type info;
 node_Type<Type> *link;
-    
+
 };
 
 

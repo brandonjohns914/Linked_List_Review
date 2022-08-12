@@ -35,13 +35,13 @@ public:
     Linked_List_Type();
     Linked_List_Type(const Linked_List_Type<Type> & Other_List);
     ~Linked_List_Type();
-    
+    int count;
+    node_Type<Type> *first;
+    node_Type<Type> *last; 
     private:
     void Copy_List(const Linked_List_Type<Type>& Other_List);
 protected:
-    int count;
-    node_Type<Type> *first;
-    node_Type<Type>*last;
+   
 
 };
 
